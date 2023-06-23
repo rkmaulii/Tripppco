@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/*default semua*/
+*,html, body{
+    margin: 0%;
+    padding: 0%;
+
+}
+/*pengaturan body*/
+body{ 
+    width: 100%;
+    height:100vh ;
+    background-color: #F6F1F1;
+}
+
+/*navbar*/
+.navbar_utama{
+    display: flex;
+    margin-left: auto;
+    text-decoration: none;
+
+}
+
+/*untuk menghilangkan bulat-bulat di list navbar_utama*/
+.navbar_utama li{
+    list-style-type: none;
+    padding: 5px;
+    background-color: #FAE7A6;
+    opacity: 70%;
+
+}
+
+/*pengaturan warna dan size font navbar*/
+.navbar_utama a{
+    color: black;
+    font-size: 14px;
+}
+
+/*untuk pengaturan content1*/
+.content1{
+    width: 100%;
+    height: 50vh;
+}
+
+/*untk pengaturan img content1*/
+.content1 img{
+    width: 100%;
+    height: 50hv;
+    margin-top: -7%;
+}
+
+/*pengaturan text1*/
+.text1{
+    color: #ECDA3B;
+    font-size: 15px;
+    margin-top: -180px;
+    margin-left: 550px;
+}
+
+/*pengaturan text2*/
+.text2{
+    color: #ECDA3B;
+    font-size: 29px;
+    font-weight: bold;
+    margin-left: 420px;
+    margin-top: 10px;
+    width: 400px;
+    height: 70px;
+}
+
+/*penempatan huruf ditengah box text2*/
+.text2 p{
+    text-align: center;
+}
+
+
+
+/*content2*/
+/*kotakan 1*/
+.box1{
+    background-color: #F4EA8E;
+    color: black;
+    height: 330px;
+    width: 90%;
+    margin-top: -130px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*penempatan agar ditengah*/
+.isibox1{
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -310px;
+}
+
+/*deskripsi kotakan1*/
+.keterangan1 p{
+    line-height: 3px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+/*harga untuk kotakan1*/
+.harga1 p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+
+/*kotakan 2*/
+.box2{
+    background-color: #F4EA8E;
+    color: black;
+    height: 330px;
+    width: 90%;
+    margin-top: -130px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/*penempatan agar ditengah*/
+.isibox2{
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -310px;
+}
+
+/*deskripsi kotakan1*/
+.keterangan2 p{
+    line-height: 3px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+/*harga untuk kotakan1*/
+.harga2 p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+
+/*kotakan 3*/
+.box3{
+    background-color: #F4EA8E;
+    color: black;
+    height: 330px;
+    width: 90%;
+    margin-top: -130px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/*penempatan agar ditengah*/
+.isibox3{
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -310px;
+}
+
+/*deskripsi kotakan1*/
+.keterangan3 p{
+    line-height: 3px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+/*harga untuk kotakan1*/
+.harga3 p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+/*kotakan 4*/
+.box4{
+    background-color: #F4EA8E;
+    color: black;
+    height: 330px;
+    width: 90%;
+    margin-top: -130px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/*penempatan agar ditengah*/
+.isibox4{
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -310px;
+}
+
+/*deskripsi kotakan1*/
+.keterangan4 p{
+    line-height: 3px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+/*harga untuk kotakan1*/
+.harga4 p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+
+/*footer*/
+
+.footer{
+    display: flex;
+    padding-left: 270px;
+    margin-top: 70px;
+    background-color: #DFAD63;
+}
+
+/*footer alamat email*/
+.add_email{
+    margin-left: 40px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.add_email img{
+    width: 30px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/*footer alamat instagram*/
+.add_instagram{
+    margin-left: 40px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.add_instagram img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+/*footer alamat wa*/
+.add_wa{
+    margin-left: 40px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.add_wa img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
